@@ -1,0 +1,14 @@
+.buyer-main{
+    display: flex;
+    background: linear-gradient(to bottom, rgb(0, 0, 0), rgb(6, 0, 72), rgb(0, 0, 0));
+}
+
+.content{
+    flex: 1;
+    padding: 20px;
+    height: 100vh;
+}
+
+.content h2{
+    color: #b4b4b4;
+}

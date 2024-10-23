@@ -1,0 +1,64 @@
+/* src/styles/edititemmodal.css */
+
+.edit-modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.7);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+    opacity: 0;
+    animation: fadeIn 0.5s forwards;
+    box-sizing: border-box;
+}
+
+.edit-modal-content {
+    width: 40%;
+    position: relative;
+    animation: scaleUp 0.5s forwards;
+    background-color: rgba(255, 255, 255, 0);
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 20px;
+    box-sizing: border-box;
+}
+
+.close-button {
+    width: fit-content;
+    position: absolute;
+    background: transparent;
+    border-radius: 50%;
+    color: black;
+    width: 40px;
+    height: 40px;
+    font-size: 25px;
+    font-weight: 300;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    right: 5px;
+    top: 5px;
+    font-family: monospace;
+}
+
+.close-button:hover{
+    color: white;
+    background-color: black;
+}
+
+
+@keyframes fadeIn {
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes scaleUp {
+    to {
+        transform: scale(1);
+    }
+}

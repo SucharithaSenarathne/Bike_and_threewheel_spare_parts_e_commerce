@@ -1,0 +1,103 @@
+.add-item-main{
+    display: flex;
+    justify-content: space-between;
+}
+
+.add-item-container {
+    margin-top:10px;
+    background-color:#eaeaea;
+    padding: 20px;
+    border-radius: 8px 0 0 0;
+    width: 75%;
+}
+
+.add-item-form{
+    padding: 0 50px;
+}
+
+.add-item-container h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.form-group select,
+.form-group input,
+.form-group textarea {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+.btn328p {
+    background-color: rgba(19, 6, 73, 0);
+    border: 1px solid black;
+    border-radius: 50px;
+    color: black;
+    width: 100%;
+    padding: 10px;
+    cursor: pointer;
+    transition: ease-in 500ms;
+}
+
+.btn328p:hover {
+    background: linear-gradient(
+      82.3deg,
+      rgba(150, 93, 233, 1) 10.8%,
+      rgba(99, 88, 238, 1) 94.3%
+    );
+    color: white;
+    border: 1px solid black;
+    border-radius: 70px;
+}
+
+.inputbox {
+    position: relative;
+    margin: 30px 0;
+    max-width: 310px;
+    border-bottom: 2px solid #000000;
+}
+
+.inputbox label {
+    position: absolute;
+    top: 50%;
+    left: 5px;
+    transform: translateY(-50%);
+    color: #000000;
+    font-size: 1rem;
+    pointer-events: none;
+    transition: all 0.2s ease-in-out;
+}
+
+.inputbox input:focus ~ label, 
+.inputbox input:valid ~ label {
+    top: -5px;
+}
+
+.inputbox input {
+    width: 100%;
+    height: 60px;
+    background: transparent;
+    border: none;
+    outline: none;
+    font-size: 1rem;
+    padding: 0 35px 0 5px;
+    color: #000000;
+}
+
+.inputbox ion-icon {
+    position: absolute;
+    right: 8px;
+    color: #000000;
+    font-size: 1.2rem;
+    top: 20px;
+}

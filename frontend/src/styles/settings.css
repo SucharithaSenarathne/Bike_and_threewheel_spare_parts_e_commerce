@@ -1,0 +1,135 @@
+/* General form styling */
+.settings-form {
+    display: flex;
+    flex-direction: column;
+    padding: 0 50px;
+    gap: 20px;
+}
+
+.settings-main {
+    display: flex;
+    justify-content: space-between;
+}
+
+.settings-div {
+    margin-top: 10px;
+    padding: 20px;
+    background-color: #eaeaea;
+    width: 75%;
+    border-radius: 8px 0 0 0;
+}
+
+.user-profile-img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    cursor: pointer;
+    object-fit: cover;
+    display: block;
+    margin: 0 auto;
+}
+
+.label-291 {
+    font-weight: 300;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #393535;
+}
+
+
+
+.pass {
+    margin-top: 20px;
+}
+
+.edit-label {
+    cursor: pointer;
+    color: #041a31;
+    font-weight: 400;
+    text-decoration: none;
+}
+
+.edit-label:hover {
+    cursor: pointer;
+    color: #0b437e;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+.pw-form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.acc-pw-change {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+ 
+.pwwinput {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 15px;
+}
+  
+.settings-div  span {
+    font-size: 16px;
+    color: #1f1350;
+}
+  
+.edit-btn{
+    background-color: rgba(19, 6, 73, 0);
+    border: 1px solid black;
+    border-radius: 50px;
+    color: black;
+    margin-top: 15px;
+    transition: ease-in 500ms;
+}
+
+.edit-btn:hover{
+    background: linear-gradient(
+      82.3deg,
+      rgba(150, 93, 233, 1) 10.8%,
+      rgba(99, 88, 238, 1) 94.3%
+    );
+    color: white;
+    border: 1px solid black;
+    border-radius: 70px;
+
+}
+
+.address-item {
+    border: 1px solid #ddd; 
+    border-radius: 8px;
+    padding: 16px;
+    margin: 12px 0; 
+    background-color: #f9f9f9;
+    transition: box-shadow 0.3s ease; 
+}
+
+.address-item:hover {
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.address-item p {
+    margin: 4px 0; 
+    font-family: Arial, sans-serif; 
+    color: #333;
+    font-size: smaller;
+}
+
+.delete-btn3211{
+    background-color: rgba(19, 6, 73, 0);
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 50px;
+    color: black;
+    transition: ease-in 500ms;
+    width: 50px;
+}
+
+.p125{
+    width: 180px;
+}

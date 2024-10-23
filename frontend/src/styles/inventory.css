@@ -1,0 +1,103 @@
+.main-inventory-container {
+    display: flex;
+    width: 100%;
+    height: fit-content;
+    box-sizing: border-box;
+}
+
+.inventory-container{
+    margin-top: 10px;
+    padding: 0px;
+    width: 75%;
+    height: fit-content;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+}
+
+.inventory-container ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    height: fit-content;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 25px;
+    justify-content: center;
+}
+
+.inventory-container img{
+    width: 180px;
+    margin-top: 0px;
+    height: 180px;
+    border-radius: 18px;
+    margin-top: 10px;
+    object-fit: cover;
+}
+
+.inventory-div{
+    border: 1px solid rgba(0, 0, 0, 0.164);
+    border-radius: 20px;
+    width: 200px;
+    padding: 10px;
+}
+
+.inventory-div:hover{
+    border: 1px solid #8a2be2;
+    border-radius: 20px;
+    width: 200px;
+    color: #470387;
+}
+
+.inventory-buttons{
+    display: flex;
+    background-color: rgba(43, 0, 173, 0.086);
+    border-radius: 0 0 20px 20px;
+}
+
+.inventory-buttons button {
+    background-color: transparent;
+    border: none;
+    color: #333;
+    font-size: 1.2em;
+    cursor: pointer;
+    transition: color 0.3s ease;
+}
+
+.inventory-buttons button i {
+    pointer-events: none;
+}
+
+.inventory-buttons button:hover {
+    color: #007bff;
+}
+
+.inventory-buttons button:nth-child(2):hover {
+    color: #e74c3c;
+}
+
+.inventory-buttons button:focus {
+    outline: none;
+}
+
+.ncsdiv{
+    text-align: left;
+}
+
+.inventory-div h3 {
+    margin: 0;
+    font-size: 1em;
+    color: #333;
+    font-weight: bold;
+}
+
+.inventory-div p {
+    margin: 5px 0;
+    font-size: 1em;
+    color: #666;
+}
+
+.csdiv{
+    display: flex;
+    justify-content: space-between;
+}

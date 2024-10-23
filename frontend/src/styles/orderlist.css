@@ -1,0 +1,130 @@
+/* src/styles/orderlist.css */
+.orders-main{
+    display: flex;
+    justify-content: space-between;
+}
+
+.user-orders-container {
+    width: 75%;
+    margin-top: 10px;
+    padding: 20px;
+    border-radius: 8px 0 0 0;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.user-orders-container h2 {
+    margin-bottom: 20px;
+    font-size: 1.8rem;
+    color: #333;
+    margin: 0;
+}
+
+.orderlist-1 {
+    list-style-type: none;
+    padding: 0;
+}
+
+.orderlist-1-li {
+    padding: 15px;
+    margin-bottom: 10px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.05);
+    cursor: pointer;
+    transition: background-color 0.3s;
+    color: #555;
+}
+
+
+.orderlist-1-li p {
+    font-size: 1rem;
+    margin: 5px 0;
+}
+
+.confirm-btn {
+    background-color: rgba(28, 5, 119, 0.847);
+    border: 1px solid black;
+    border-radius: 50px;
+    color: rgb(255, 255, 255);
+    margin-top: 15px;
+    transition: ease-in 500ms;
+    padding: 10px;
+    width: 100%;
+}
+
+.confirm-btn:hover {
+    background: linear-gradient(
+      82.3deg,
+      rgba(150, 93, 233, 1) 10.8%,
+      rgba(99, 88, 238, 1) 94.3%
+    );
+    color: white;
+    border: 1px solid black;
+    border-radius: 70px;
+}
+
+.view-btn {
+    padding: 10px 15px;
+    margin-top: 10px;
+    background-color: #cc7b1e;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: background-color 0.3s ease;
+}
+
+.view-btn:hover {
+    background-color: #b36b19;
+}
+
+.orderlist-2{
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    gap: 10px;
+}
+
+.orderlist-2 p{
+    margin: 0;
+}
+
+.orderlist-2 li img{
+    height: 80px;
+    width: 80px;
+    border-radius: 8px;
+    transition: height 0.3s ease, width 0.3s ease;
+}
+
+.orderlist-2-li{
+    width: 180px;
+    text-align: center;
+    padding: 10px;
+    border-radius: 8px;
+}
+
+.order-item-name{
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-width: 150px;
+}
+
+.oinq{
+    display: flex;
+    gap: 2px;
+    justify-content: center;
+}
+
+
+.orderlist-1-li:hover .orderlist-2 li img{
+    height: 180px;
+    width: 180px;
+}
+
+.orderlist-1-li:hover{
+    background: linear-gradient(to right, rgb(2, 76, 113), rgb(23, 5, 86));
+    color: rgb(255, 255, 255);
+}

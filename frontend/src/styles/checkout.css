@@ -1,0 +1,113 @@
+/* src/styles/checkout.css */
+.check-main{
+    display: flex;
+    gap: 30px;
+}
+
+.checkout-container {
+    width: 75%;
+    padding: 0 90px 30px 90px ;
+    background-color: #fff;
+    border-radius: 8px 0 0 0;
+    margin-top: 10px;
+    box-sizing: border-box;
+
+}
+.new-address-form input {
+    display: block;
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin-bottom: 10px;
+}
+.order-summary ul {
+    list-style-type: none;
+    padding: 0;
+}
+.order-summary li {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+    display: flex;
+    justify-content: space-between;
+}
+
+.order-summary img{
+    height: 120px;
+}
+
+.payment-method select {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    font-size: 16px;
+    border: 1px solid #6c6e71;
+    border-radius: 5px;
+    background-color: #f8f9fa;
+    color: #343a40;
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+
+.payment-method select:hover {
+    background-color: #e2e6ea;
+}
+
+.payment-method option {
+    background-color: #f8f9fa;
+    color: #343a40;
+    padding: 10px;
+    font-size: 16px;
+}
+
+.checkout-container h4{
+    color: #383838;
+}
+
+.addressbtn{
+    background-color: #ffffff00;
+    color: black;
+    border: 1px solid black;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    transition: ease 300ms;
+}
+
+.addressbtn:hover{
+    background: linear-gradient(
+      82.3deg,
+      rgba(99, 88, 238, 1) 10.8%,
+      rgba(150, 93, 233, 1) 94.3%
+    );
+    color: white;
+}
+
+.address-item {
+    display: flex;
+    gap: 15px;
+    align-items:center;
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #f3f3f3;
+}
+
+.confirmorderbtn{
+    background: linear-gradient(
+      82.3deg,
+      rgba(150, 93, 233, 1) 10.8%,
+      rgba(99, 88, 238, 1) 94.3%
+    );
+    color: white;
+}
+
+.confirmorderbtn:hover{
+    background: linear-gradient(
+      82.3deg,
+      rgba(99, 88, 238, 1) 10.8%,
+      rgba(150, 93, 233, 1) 94.3%
+    );
+    
+}
+
+
+

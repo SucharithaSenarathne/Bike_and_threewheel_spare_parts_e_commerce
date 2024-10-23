@@ -1,0 +1,9 @@
+.home-container{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background: linear-gradient(to bottom, rgb(0, 0, 0), rgb(36, 36, 36), rgb(0, 0, 0));
+}
