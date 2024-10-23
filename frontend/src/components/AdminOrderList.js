@@ -46,7 +46,7 @@ const AdminOrderList = () => {
     const handleDispatch = async (orderId) => {
         try {
             const token = localStorage.getItem('token');
-            await axios.put(`http://localhost:5000/api/orders/${orderId}/order-dispatched`, {}, {
+            await axios.put(`https://wickramasinghemotors.onrender.com/api/orders/${orderId}/order-dispatched`, {}, {
                 headers: {
                     'x-auth-token': token
                 }
