@@ -133,10 +133,7 @@ const ItemDetail = () => {
                                 <li key={review._id}>
                                     <div style={{ display: 'flex', gap: '10px' }}>
                                     <div>
-                                        <img 
-                                            src={review.user.profilePicture ? review.user.profilePicture : {propic}} 
-                                            alt='Profile Picture' 
-                                        />
+                                        <img src={propic} alt='propic' />
                                         </div>
                                         <div>
                                             <p>{review.user.fname} {review.user.lname}</p>
